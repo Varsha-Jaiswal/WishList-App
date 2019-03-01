@@ -1,6 +1,7 @@
-import { types } from "mobx-state-tree"
 
-export const WishListItem = types.model({
-    name: types.string,
-    age: types.number
-})
+import { types } from 'mobx-state-tree';
+import { WishListItem } from './WishListItem';
+
+export const WishList = types.model({
+    items: types.optional(types.array(WishListItem), [])
+  });

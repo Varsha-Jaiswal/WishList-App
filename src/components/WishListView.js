@@ -1,7 +1,6 @@
 import React from "react"
 import { observer } from "mobx-react";
-import { WishListItemView } from "./WishListItemView";
-
+import WishListItemView from "./WishListItemView";
 const WishListView = ({ wishList}) => (
     <div className="list">
         <ul>

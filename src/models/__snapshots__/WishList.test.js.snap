@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can add new data 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "image": "",
+      "name": "AB",
+      "price": 40,
+    },
+  ],
+}
+`;
